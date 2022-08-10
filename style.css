@@ -308,14 +308,14 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
-	flex-wrap: wrap	;
+	flex-wrap: wrap;
 	list-style: none;
 	width: 98%;
 	height: auto;
 	margin: auto;
 }
 
-.product .pro{
+.product .pro {
 	margin: 20px;
 	padding: 10px 12px;
 	border: 1px solid #cce7d0;
@@ -334,11 +334,11 @@ body {
 	float: left;
 }
 
-.product :hover{
+.product :hover {
 	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
 }
 
-.product .pro :hover{
+.product .pro :hover {
 	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 }
 
