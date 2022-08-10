@@ -60,7 +60,7 @@ body {
 }
 
 .wrapper {
-	width: 1500px;
+	width: 100%;
 	height: auto;
 }
 
@@ -114,7 +114,7 @@ body {
 /* Home Page */
 
 #hero {
-	background-image: url("imgs/hero4.png");
+	background-image: url("imgs/hero2.jpg");
 	height: 90vh;
 	width: 100%;
 	background-size: cover;

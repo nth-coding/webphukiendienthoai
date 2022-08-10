@@ -15,17 +15,17 @@
         	<ul id="navbar">
 				<li><a href="index.php" >Trang chủ</a></li>
 				<li><a href="sanpham.php">Sản phẩm</a></li>
-				<li><a href="?quanly=dangkymoi">Đăng ký</a></li>
-				<li><a href="?quanly=dangnhap">Đăng nhập</a></li>
-				<li><a href="?quanly=dathang">Giỏ hàng</a></li>
-				<li><a href="">Tin tức </a></li>
-				<li><a href="">Liên hệ</a></li>
+				<li><a href="sanpham.php?quanly=dangkymoi">Đăng ký</a></li>
+				<li><a href="sanpham.php?quanly=dangnhap">Đăng nhập</a></li>
+				<li><a href="sanpham.php?quanly=dathang">Giỏ hàng</a></li>
+				<li><a href="#">Tin tức </a></li>
+				<li><a href="#">Liên hệ</a></li>
         	</ul>
     	</div>
 	</section>
 
 	<section id="hero">
-		<h4> Trực tuyến </h4>
+		<h4> Trade-in-offer </h4>
 		<h2> Super value deals </h2>
 		<h1> On all products </h1>
 		<p> Save more with coupons & up to 70% off! </p>

@@ -28,7 +28,7 @@
   <form action="" method="post" enctype="multipart/form-data">
 	<table width="100%" border="1" style="border-collapse:collapse;">
   <tr>
-    <td width="40%">Email : <strong style="color:#088178;"> (*)</strong></td>
+    <td width="40%">Tài khoản : <strong style="color:#088178;"> (*)</strong></td>
     <td width="60%"><input type="text" name="email" size="50"></td>
   </tr>
     <td>Mật khẩu : <strong style="color:#088178;"> (*)</strong></td>
@@ -37,7 +37,7 @@
   <tr>
     <td colspan="2">
     	 
-           <p><input type="submit" name="dangnhap" value="Gửi thông tin" /></p>
+           <p><input type="submit" name="dangnhap" value="Đăng nhập" /></p>
          
     </td>
     </tr>

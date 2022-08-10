@@ -15,6 +15,7 @@ $dong = mysql_fetch_array($row);
 	if ($count > 0) {
 		while ($dong_loaisp = mysql_fetch_array($num_loaisp)) {
 	?>
+		<div class="pro">
 			<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_loaisp['loaisp'] ?>&id=<?php echo $dong_loaisp['idsanpham'] ?>">
 
 					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_loaisp['hinhanh'] ?>" width="150" height="150" />
@@ -23,6 +24,7 @@ $dong = mysql_fetch_array($row);
 
 					<p>Chi tiết</p>
 				</a></li>
+		</div>
 	<?php
 		}
 	} else {

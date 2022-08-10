@@ -9,7 +9,7 @@ $row_loai = mysql_query($sql_loai);
 	<ul class="list">
 		<?php while ($dong_loai = mysql_fetch_array($row_loai)) {
 		?>
-			<li><a href="index.php?quanly=loaisp&id=<?php echo $dong_loai['idloaisp'] ?>"><?php echo $dong_loai['tenloaisp'] ?></a></li>
+			<li><a href="sanpham.php?quanly=loaisp&id=<?php echo $dong_loai['idloaisp'] ?>"><?php echo $dong_loai['tenloaisp'] ?></a></li>
 		<?php
 		}
 		?>
@@ -30,7 +30,7 @@ $row_hieu = mysql_query($sql_hieu);
 		<?php
 		while ($dong_hieu = mysql_fetch_array($row_hieu)) {
 		?>
-			<li><a href="index.php?quanly=hieusp&id=<?php echo $dong_hieu['idhieusp'] ?>"><?php echo $dong_hieu['tenhieusp'] ?></a></li>
+			<li><a href="sanpham.php?quanly=hieusp&id=<?php echo $dong_hieu['idhieusp'] ?>"><?php echo $dong_hieu['tenhieusp'] ?></a></li>
 		<?php
 		}
 		?>
@@ -52,7 +52,7 @@ $row_hieu = mysql_query($sql_hieu);
 		<?php
 		while ($dong_banchay = mysql_fetch_array($sql_banchay)) {
 		?>
-			<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_banchay['loaisp'] ?>&id=<?php echo $dong_banchay['idsanpham'] ?>">
+			<li><a href="sanpham.php?quanly=chitietsp&idloaisp=<?php echo $dong_banchay['loaisp'] ?>&id=<?php echo $dong_banchay['idsanpham'] ?>">
 					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_banchay['hinhanh'] ?>" width="150" height="150" />
 					<p><?php echo $dong_banchay['tensp'] ?></p>
 					<p style="color:#088178;"><?php echo number_format($dong_banchay['giadexuat']) . ' ' . 'VNĐ' ?></p>

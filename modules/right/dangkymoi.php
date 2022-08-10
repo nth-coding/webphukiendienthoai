@@ -33,7 +33,7 @@
     <td width="60%"><input type="text" name="hoten" size="50"></td>
   </tr>
   <tr>
-    <td>Địa chỉ Email <strong style="color:#088178;"> (*)</strong></td>
+    <td>Tài khoản  <strong style="color:#088178;"> (*)</strong></td>
     <td width="60%"><input type="text" name="email" size="50"></td>
   </tr>
   <tr>
