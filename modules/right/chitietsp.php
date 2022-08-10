@@ -31,10 +31,10 @@
                         <div class="box_info">
                          <form action="update_cart.php?id=<?php echo $dong['idsanpham'] ?>" method="post" enctype="multipart/form-data">
                         	<p>
-                            	<strong>Tên sản phẫm: </strong><em style="color:red"><?php echo $dong['tensp'] ?></em></p>
+                            	<strong>Tên sản phẫm: </strong><em style="color:#088178"><?php echo $dong['tensp'] ?></em></p>
 
                                            <p><strong>Mã sản phẩm:</strong>  <?php echo $dong['masp'] ?> </p> 
-                                           <p><strong>Giá bán:</strong><span style="color:red;"> <?php echo number_format($dong['giadexuat']).' '.'VNĐ'?></span></p> 
+                                           <p><strong>Giá bán:</strong><span style="color:#088178;"> <?php echo number_format($dong['giadexuat']).' '.'VNĐ'?></span></p> 
                                            <p style="text-decoration:underline;color:blue;"><strong> Tình trạng:</strong> Còn hàng </p> 
                                           
                                            <p><strong>Số lượng:</strong><input type="text" name="soluong" size="3" value="1" /></p>
@@ -108,7 +108,7 @@
                         		 <li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_lienquan['loaisp'] ?>&id=<?php echo $dong_lienquan['idsanpham'] ?>">
                         	<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_lienquan['hinhanh'] ?>" width="150" height="150" />
                             <p>Tên sp : <?php echo $dong_lienquan['tensp'] ?></p>
-                            <p style="color:red;">Giá : <?php echo number_format($dong_lienquan['giadexuat']).' '.'VNĐ' ?></p>
+                            <p style="color:#088178;">Giá : <?php echo number_format($dong_lienquan['giadexuat']).' '.'VNĐ' ?></p>
                             
                         	
                         </a></li>

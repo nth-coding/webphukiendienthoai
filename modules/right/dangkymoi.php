@@ -16,7 +16,7 @@
 	
 
 <div class="tieude">
-	HOAN NGHÊNH QUÝ BẠN ĐẶT HÀNG TẠI XƯỞNG PHỤ KIỆN
+  Hoan Nghênh Quý Khách Đặt Hàng Tại Xưởng Phụ Kiện 
 </div>
 <div class="thongbao">
 	<p><img src="imgs/chu-y-mua-hang.gif" width="100" height="50"></p>
@@ -25,27 +25,27 @@
     <p>- Đơn hàng nhiều sản phẩm. Vui lòng liệt kê danh sách + số lượng qua Email, Zalo</p>
 </div>
 <div class="dangky">
-  <p style="font-size:18px; color:red;margin:5px;">Các mục dấu * là bắt buộc tối thiểu. Vui lòng điền đầy đủ và chính xác (Số nhà, Ngõ, thôn xóm/ấp, Phường/xã, huyện/quận, tỉnh, TP)</p>
+  <p style="font-size:18px; color:#088178;margin:5px;">Các mục dấu * là bắt buộc tối thiểu. Vui lòng điền đầy đủ và chính xác (Số nhà, Ngõ, thôn xóm/ấp, Phường/xã, huyện/quận, tỉnh, TP)</p>
   <form action="" method="post" enctype="multipart/form-data">
 	<table width="100%" border="1" style="border-collapse:collapse;">
   <tr>
-    <td width="40%">Họ tên người mua <strong style="color:red;"> (*)</strong></td>
+    <td width="40%">Họ tên người mua <strong style="color:#088178;"> (*)</strong></td>
     <td width="60%"><input type="text" name="hoten" size="50"></td>
   </tr>
   <tr>
-    <td>Địa chỉ Email <strong style="color:red;"> (*)</strong></td>
+    <td>Địa chỉ Email <strong style="color:#088178;"> (*)</strong></td>
     <td width="60%"><input type="text" name="email" size="50"></td>
   </tr>
   <tr>
-    <td>Mật khẩu  <strong style="color:red;"> (*)</strong></td>
+    <td>Mật khẩu  <strong style="color:#088178;"> (*)</strong></td>
     <td width="60%"><input type="password" name="pass" size="50"></td>
   </tr>
   <tr>
-    <td>Điện thoại <strong style="color:red;"> (*)</strong></td>
+    <td>Điện thoại <strong style="color:#088178;"> (*)</strong></td>
      <td width="60%"><input type="text" name="dienthoai" size="50"></td>
   </tr>
   <tr>
-    <td>Địa chỉ nhận hàng <strong style="color:red;"> (*)</strong></td>
+    <td>Địa chỉ nhận hàng <strong style="color:#088178;"> (*)</strong></td>
    <td width="60%"><input type="text" name="diachi" size="50"></td>
   </tr>
   <tr>

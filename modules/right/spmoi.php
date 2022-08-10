@@ -5,20 +5,22 @@
 	?>
 	<div class="tieude">Sản phẩm mới nhất</div>
 	<ul class="product">
-		<?php
-		while ($dong_moinhat = mysql_fetch_array($row_moinhat)) {
-		?>
-			<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_moinhat['loaisp'] ?>&id=<?php echo $dong_moinhat['idsanpham'] ?>">
-					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_moinhat['hinhanh'] ?>" width="150" height="150" />
-					<p style="color:skyblue"><?php echo $dong_moinhat['tensp'] ?></p>
-					<p style="color:#088178;font-weight:bold; border:1px solid #d9d9d9; width:150px;
-                            height:30px; line-height:30px;margin-left:35px;margin-bottom:5px;"><?php echo number_format($dong_moinhat['giadexuat']) . ' ' . 'VNĐ' ?></p>
+			<?php
+			while ($dong_moinhat = mysql_fetch_array($row_moinhat)) {
+			?>
+				<div class="pro">
+					<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_moinhat['loaisp'] ?>&id=<?php echo $dong_moinhat['idsanpham'] ?>">
+							<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_moinhat['hinhanh'] ?>" width="150" height="150" />
+							<p style="color:skyblue"><?php echo $dong_moinhat['tensp'] ?></p>
+							<p style="color:#088178;font-weight:bold; border:1px solid #d9d9d9; width:150px;
+									height:30px; line-height:30px;margin-left:35px;margin-bottom:5px;"><?php echo number_format($dong_moinhat['giadexuat']) . ' ' . 'VNĐ' ?></p>
 
 
-				</a></li>
-		<?php
-		}
-		?>
+						</a></li>
+				</div>
+			<?php
+			}
+			?>
 	</ul>
 	<div class="clear"></div>
 
@@ -38,8 +40,8 @@
 				<?php
 
 				while ($dong = mysql_fetch_array($row)) {
-
 				?>
+				<div class="pro">
 					<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong['loaisp'] ?>&id=<?php echo $dong['idsanpham'] ?>">
 							<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong['hinhanh'] ?>" width="150" height="150" />
 							<p style="color:skyblue"><?php echo $dong['tensp'] ?></p>
@@ -48,6 +50,7 @@
 
 
 						</a></li>
+				</div>
 			<?php
 				}
 			} else {

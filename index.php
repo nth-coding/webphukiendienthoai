@@ -13,7 +13,7 @@
 		
 		<div>
         	<ul id="navbar">
-				<li><a href="index.php">Trang chủ</a></li>
+				<li><a href="index.php" >Trang chủ</a></li>
 				<li><a href="sanpham.php">Sản phẩm</a></li>
 				<li><a href="?quanly=dangkymoi">Đăng ký</a></li>
 				<li><a href="?quanly=dangnhap">Đăng nhập</a></li>
@@ -25,12 +25,16 @@
 	</section>
 
 	<section id="hero">
-		<h4> Trade-in-offer </h4>
+		<h4> Trực tuyến </h4>
 		<h2> Super value deals </h2>
 		<h1> On all products </h1>
 		<p> Save more with coupons & up to 70% off! </p>
-		<a href="sanpham.php"> Shop now </a>
+		<a href="sanpham.php" style="text-decoration: none;"> Shop now </a>
 	</section>
+
+	<div class="section-header text-center">
+		<h2> Chúng tôi có những gì? </h2>
+	</div>
 
 	<section id="feature" class="section-p1">
 		<div class="fe-box">
@@ -58,6 +62,10 @@
 			<h6> F24/7 Support </h6> 
 		</div>
 	</section>
+
+	<!-- <div class="section-header text-center">
+		<h2> Sản phẩm </h2>
+	</div> -->
 
 	<div class="wrapper">
     	<?php

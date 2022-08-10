@@ -15,7 +15,9 @@ $row_loai = mysql_query($sql_loai);
 		?>
 	</ul>
 </div>
+
 <!--Ket thuc div box loai phu kien -->
+
 <?php
 $sql_hieu = "select * from hieusp order by idhieusp asc";
 $row_hieu = mysql_query($sql_hieu);
@@ -34,7 +36,9 @@ $row_hieu = mysql_query($sql_hieu);
 		?>
 	</ul>
 </div>
+
 <!--Ket thuc div box thuong hieu -->
+
 <div class="box_list">
 
 	<div class="tieude">
@@ -51,14 +55,16 @@ $row_hieu = mysql_query($sql_hieu);
 			<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_banchay['loaisp'] ?>&id=<?php echo $dong_banchay['idsanpham'] ?>">
 					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_banchay['hinhanh'] ?>" width="150" height="150" />
 					<p><?php echo $dong_banchay['tensp'] ?></p>
-					<p style="color:red;"><?php echo number_format($dong_banchay['giadexuat']) . ' ' . 'VNĐ' ?></p>
+					<p style="color:#088178;"><?php echo number_format($dong_banchay['giadexuat']) . ' ' . 'VNĐ' ?></p>
 				</a></li>
 		<?php
 		}
 		?>
 	</ul>
 </div>
+
 <!--Ket thuc div box hang ban chay -->
+
 <div class="box_list">
 	<?php
 	$sql = mysql_query("select * from tintuc");
