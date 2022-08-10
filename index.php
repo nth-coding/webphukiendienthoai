@@ -8,15 +8,64 @@
 </head>
 
 <body>
+	<section id="header">
+		<a href="#"> <img src="imgs/logo.png" class="logo" alt=""> </a>
+		
+		<div>
+        	<ul id="navbar">
+				<li><a href="index.php">Trang chủ</a></li>
+				<li><a href="">Sản phẩm</a></li>
+				<li><a href="?quanly=dangkymoi">Đăng ký</a></li>
+				<li><a href="?quanly=dangnhap">Đăng nhập</a></li>
+				<li><a href="?quanly=dathang">Giỏ hàng</a></li>
+				<li><a href="">Tin tức </a></li>
+				<li><a href="">Liên hệ</a></li>
+        	</ul>
+    	</div>
+	</section>
+
+	<section id="hero">
+		<h4> Trade-in-offer </h4>
+		<h2> Super value deals </h2>
+		<h1> On all products </h1>
+		<p> Save more with coupons & up to 70% off! </p>
+		<button> Shop now </button>
+	</section>
+
+	<section id="feature" class="section-p1">
+		<div class="fe-box">
+			<img src="imgs/features/f1.png" alt="">
+			<h6> Free Shipping </h6> 
+		</div>
+		<div class="fe-box">
+			<img src="imgs/features/f2.png" alt="">
+			<h6> Online Order </h6> 
+		</div>
+		<div class="fe-box">
+			<img src="imgs/features/f3.png" alt="">
+			<h6> Save Money </h6> 
+		</div>
+		<div class="fe-box">
+			<img src="imgs/features/f4.png" alt="">
+			<h6> Promotions </h6> 
+		</div>
+		<div class="fe-box">
+			<img src="imgs/features/f5.png" alt="">
+			<h6> Happy Sell </h6> 
+		</div>
+		<div class="fe-box">
+			<img src="imgs/features/f6.png" alt="">
+			<h6> F24/7 Support </h6> 
+		</div>
+	</section>
+
 	<div class="wrapper">
     	<?php
 			include('admincp/modules/config.php');
-			include('modules/header.php');
-			include('modules/menu.php');
 			include('modules/content.php');
 			include('modules/footer.php');
 		?>
-     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/tabs.js"></script>
 
