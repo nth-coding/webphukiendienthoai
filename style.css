@@ -340,7 +340,6 @@ body{
 	border:1px solid #CCC;
 }
 
-
 .box_info{
 	width:64%;
 	height:300px;
@@ -354,8 +353,6 @@ body{
 .box_detail{
 	width:100%;
 	height:400px;
-	
-	
 	
 }
 .button_dathang{
@@ -419,7 +416,9 @@ body{
 .hinhanhsp li{
 	text-align:center;
 }
+
 /*Gio hang*/
+
 .box_giohang{
 	width:98%;
 	height:auto;
