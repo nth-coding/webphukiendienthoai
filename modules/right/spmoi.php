@@ -9,7 +9,7 @@
 			while ($dong_moinhat = mysql_fetch_array($row_moinhat)) {
 			?>
 				<div class="pro">
-					<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_moinhat['loaisp'] ?>&id=<?php echo $dong_moinhat['idsanpham'] ?>">
+				<li><a href="sanpham.php?quanly=chitietsp&idloaisp=<?php echo $dong_moinhat['loaisp'] ?>&id=<?php echo $dong_moinhat['idsanpham'] ?>">
 							<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_moinhat['hinhanh'] ?>" width="150" height="150" />
 							<p style="color:skyblue"><?php echo $dong_moinhat['tensp'] ?></p>
 							<p style="color:#088178;font-weight:bold; border:1px solid #d9d9d9; width:150px;
