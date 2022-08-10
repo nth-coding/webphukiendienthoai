@@ -1,3 +1,3 @@
-	<div class="header">
-        	<img src="imgs/banner2.jpg" />
-        </div>
+<div class="header">
+	<!-- <a href="#"> <img src="imgs/UET-logo.png" class="logo" alt=""> </a> -->
+</div>
