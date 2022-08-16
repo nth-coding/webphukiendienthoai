@@ -48,7 +48,6 @@
 							<p style="color:#088178;font-weight:bold; border:1px solid #d9d9d9; width:150px;
                             height:30px; line-height:30px;margin-left:35px;margin-bottom:5px;"><?php echo number_format($dong['giadexuat']) . ' ' . 'VNĐ' ?></p>
 
-
 						</a></li>
 				</div>
 			<?php

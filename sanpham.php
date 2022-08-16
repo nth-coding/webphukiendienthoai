@@ -9,7 +9,7 @@
 
 <body>
 	<section id="header">
-		<a href="#"> <img src="imgs/logo.png" class="logo" alt=""> </a>
+		<a href="index.php"> <img src="imgs/logo.png" class="logo" alt=""> </a>
 		
 		<div>
         	<ul id="navbar">
@@ -19,7 +19,7 @@
 				<li><a href="?quanly=dangnhap">Đăng nhập</a></li>
 				<li><a href="?quanly=dathang">Giỏ hàng</a></li>
 				<li><a href="">Tin tức </a></li>
-				<li><a href="">Liên hệ</a></li>
+				<li><a href="contact.php">Liên hệ</a></li>
         	</ul>
     	</div>
 	</section>

@@ -204,11 +204,6 @@ body {
 
 }
 
-/* .hangbanchay li:hover {
-	background: #088178;
-
-} */
-
 .hangbanchay a {
 	text-decoration: none;
 	display: block;
@@ -294,14 +289,13 @@ body {
 	border: 1px solid #D9D9D9;
 	float: right;
 	margin-top: 2px;
+	margin-bottom: 20px;
 }
 
 .box_product {
 	width: 98%;
 	height: auto;
-
 	margin: auto;
-
 }
 
 .product {

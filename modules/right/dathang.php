@@ -37,7 +37,7 @@
 			$tongtien=$cart_item['soluong']*$cart_item['gia'];
 			$thanhtien=($thanhtien + $tongtien);
 			echo'<td>'.number_format($tongtien).'</td>';
-			echo'<td><a href="update_cart.php?xoa='.$cart_item['id'].'"><img src="imgs/delete#088178.png" width="30" height="30"></a></td>';
+			echo'<td><a href="update_cart.php?xoa='.$cart_item['id'].'"><img src="imgs/delete.png" width="30" height="30"></a></td>';
 			echo'</tr>';
 			echo '<tr>';
 			echo'</tr>';
@@ -69,7 +69,7 @@
  
 
             <ul	class="control">
-              <p><a href="">Tiếp tục mua hàng</a></p>
+              <p><a href="sanpham.php">Tiếp tục mua hàng</a></p>
                 <p><a href="?quanly=dangkymoi">Đăng ký mới</a></p>
                 <p><a href="?quanly=dangnhap">Bạn đã có tài khoản</a></p>
                 <?php

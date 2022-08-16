@@ -16,13 +16,13 @@ $dong = mysql_fetch_array($row);
 		while ($dong_loaisp = mysql_fetch_array($num_loaisp)) {
 	?>
 		<div class="pro">
-			<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_loaisp['loaisp'] ?>&id=<?php echo $dong_loaisp['idsanpham'] ?>">
+			<li><a href="sanpham.php?quanly=chitietsp&idloaisp=<?php echo $dong_loaisp['loaisp'] ?>&id=<?php echo $dong_loaisp['idsanpham'] ?>">
 
 					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_loaisp['hinhanh'] ?>" width="150" height="150" />
-					<p><?php echo $dong_loaisp['tensp'] ?></p>
-					<p><?php echo $dong_loaisp['giadexuat'] ?></p>
 
-					<p>Chi tiết</p>
+					<p style="color:skyblue"><?php echo $dong_loaisp['tensp'] ?></p>
+							<p style="color:#088178;font-weight:bold; border:1px solid #d9d9d9; width:150px;
+                            height:30px; line-height:30px;margin-left:35px;margin-bottom:5px;"><?php echo number_format($dong_loaisp['giadexuat']) . ' ' . 'VNĐ' ?></p>
 				</a></li>
 		</div>
 	<?php
