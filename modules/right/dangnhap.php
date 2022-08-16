@@ -42,12 +42,12 @@ if (isset($_POST['dangnhap'])) {
 			<div class="sign_up_form" style="margin-top: 200px;">
 				<div class="input-focus-effect">
 					<input type="text" name="email" placeholder="  " />
-					<label>Tài khoản</label>
+					<label>Tài khoản: </label>
 				</div>
 
 				<div class="input-focus-effect">
 					<input type="password" name="pass" placeholder="  " />
-					<label>Mật khẩu</label>
+					<label>Mật khẩu: </label>
 				</div>
 				<button type="submit" name="dangnhap" value="Đăng nhập" class="submit_button">Đăng nhập</button>
 			</div>

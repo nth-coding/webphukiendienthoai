@@ -43,35 +43,42 @@ if (isset($_POST['gui'])) {
       <div class="sign_up_form">
         <div class="input-focus-effect">
           <input type="text" name="hoten" placeholder="  " />
-          <label>Họ và tên</label>
+          <label>Họ và tên: </label>
         </div>
 
         <div class="input-focus-effect">
           <input type="text" name="email" placeholder="  " />
-          <label>Tài khoản</label>
+          <label>Tài khoản: </label>
         </div>
 
         <div class="input-focus-effect">
           <input type="password" name="pass" placeholder="  " />
-          <label>Mật khẩu</label>
+          <label>Mật khẩu: </label>
         </div>
 
         <div class="input-focus-effect">
           <input type="text" name="dienthoai" placeholder="  " />
-          <label>Điện thoại</label>
+          <label>Điện thoại: </label>
         </div>
 
         <div class="input-focus-effect">
           <input type="text" name="diachi" placeholder="  " />
-          <label>Địa chỉ nhận hàng</label>
+          <label>Địa chỉ nhận hàng: </label>
         </div>
 
         <div class="input-focus-effect">
           <input type="text" placeholder="  " />
-          <label>Ghi chú nếu có:</label>
+          <label>Ghi chú nếu có: </label>
         </div>
 
-        <button type="submit" name="gui" value="Gửi thông tin" class="submit_button">Gửi thông tin</button>
+        <button type="submit" name="gui" value="Gửi thông tin" onclick="myFunction()" class="submit_button">Gửi thông tin</button>
+        <!-- <button onclick="myFunction()">Try it</button> -->
+
+        <script>
+          function myFunction() {
+            alert("Bạn đã đăng ký thành công!");
+          }
+        </script>
       </div>
     </div>
   </form>
