@@ -115,10 +115,12 @@
 	footer .install .row img {
 		border: 1px solid #088178;
 		border-radius: 6px;
+		cursor: pointer;
 	}
 
 	footer .install img {
 		margin: 10px 0 15px 0;
+		cursor: pointer;
 	}
 
 	footer .follow i:hover {

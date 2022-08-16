@@ -249,6 +249,7 @@ body {
 	padding: 5px;
 	color: #fff;
 	line-height: 40px;
+	margin-bottom: 30px;
 }
 
 .box_list {
@@ -289,7 +290,7 @@ body {
 	border: 1px solid #D9D9D9;
 	float: right;
 	margin-top: 2px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .box_product {
@@ -525,6 +526,113 @@ body {
 }
 
 /*Dang ky*/
+
+/* text input  */
+.input-focus-effect {
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.input-focus-effect input {
+	padding: 2rem 0.95rem 0.5rem;
+	border: 1px solid transparent;
+	display: block;
+	width: 20px;
+	border-radius: 8px;
+	transition: border 0.25s linear;
+	background-color: transparent;
+	outline: none;
+	color: #000;
+	font-size: 15px;
+}
+
+.input-focus-effect input:focus {
+	border-color: #088178;
+}
+
+.input-focus-effect input:focus+label,
+.input-focus-effect input:not(:placeholder-shown)+label {
+	transform: translateY(-5px);
+	top: 1rem;
+}
+
+.input-focus-effect label {
+	position: absolute;
+	top: 50%;
+	left: 1rem;
+	transform: translateY(-50%);
+	pointer-events: none;
+	color: #088178;
+	transition: 0.25s linear;
+	font-size: 1rem;
+}
+
+/* flip card  */
+.flip-card {
+	max-width: 30rem;
+	height: 40rem;
+	flex: 1;
+	perspective: 150rem;
+	margin-bottom: 50px;
+}
+
+.flip-card-inner {
+	width: 450px;
+	height: 100%;
+	perspective: 1000px;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+	margin-left: 50px;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card .front,
+.flip-card .back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card .back {
+	transform: rotateY(180deg);
+}
+
+.flip-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 40px;
+}
+
+.sign_up_form {
+	flex: 1;
+	margin: 60px 0px 0px 55px;
+}
+
+.submit_button {
+	height: 3.125rem;
+	width: 70%;
+	margin-top: 40px;
+	padding: 0 1.25rem;
+	font-size: 14px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: none;
+	background-color: #088178;
+	color: #fff;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
 .thongbao {
 	width: 100%;
 	height: 200px;
@@ -542,7 +650,7 @@ body {
 }
 
 .dangky input {
-	width: 100%;
+	width: 400px;
 	height: 20px;
 }
 
